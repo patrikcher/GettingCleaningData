@@ -66,4 +66,4 @@ for (sub in 1:numOfSubjects) {
   }
 }
 
-write.table(result, "tidy_data_with_averages.txt")
+write.table(result, "tidy_data_with_averages.txt", row.names = FALSE)
