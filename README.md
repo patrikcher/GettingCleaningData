@@ -13,5 +13,5 @@ source("run_analysis.R")
 
 * To read data, enter the following command into the console.
 ````
-data <- read.table("data_with_averages.txt")
+data <- read.table("tidy_data_with_averages.txt")
 ````
