@@ -23,6 +23,6 @@ The second step is to read features.txt and extract only the measures on the mea
 
 The third step is to read activity_labels.txt and apply descriptive activity names to label the activities in the data set. E.g. walking, walkingupstairs, walkingdownstairs and etc.
 
-The fourth step is to label the data set with descriptive names. All feature names and activity names are converted to lowercase with underscores and brackets removed. Then the data frame from step 2 is merged with the data frames containing activity labels and subject IDs. The result is then saved into merged_tidy_data.txt.
+The fourth step is to label the data set with descriptive names. All feature names and activity names are converted to lowercase with underscores and brackets removed. Then the data frame from step 2 is merged with the data frames containing activity labels and subject IDs. The result is then saved into merged_tidy_data.txt. The first column contains subject IDs, second contains activity names and the last 66 columns are measurements.
 
-The final step is to create an independent tidy data set with the average of each measurement for each activity and subject. The result is then saved into tidy_data_with_averages.txt.
+The final step is to create an independent tidy data set with the average of each measurement for each activity and subject. The result is then saved into tidy_data_with_averages.txt. The first column contains subject IDs, second contains activity names and the last 66 columns are averages of measurements.
